@@ -2,7 +2,7 @@ const chatBox = document.getElementById('chat-box');
 const subtitleBox = document.getElementById('subtitle-box') || createSubtitleBox();
 const video = document.getElementById('video');
 
-const GROQ_API_KEY = "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";  // 🔥 IMPORTANT
+const GROQ_API_KEY = "";  // 🔥 IMPORTANT
 
 let memory = JSON.parse(localStorage.getItem('jarvis_memory')) || [];
 let romanticMode = true;
